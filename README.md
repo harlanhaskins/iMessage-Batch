@@ -8,6 +8,10 @@ Usage:
 
 Example:
     ./sendMessages 100 "This is a test." "Harlan Haskins"
+
+Installation:
+    git clone https://github.com/harlanhaskins/iMessage-Batch.git; cd iMessage-Batch; chmod +x sendMessages; sudo cp sendMessages /usr/sbin/.; cd ..; rm -rf iMessage-Batch;
+
 ---
 The MIT License (MIT)
 
