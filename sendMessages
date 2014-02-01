@@ -1,0 +1,10 @@
+#! /bin/bash
+
+appleScript="tell application \"Messages\" to send \"$2\" to buddy \"$3\""
+
+numberOfMessages=$1;
+
+for i in $(seq 1 $numberOfMessages)
+do
+    osascript -e "$appleScript"
+done
